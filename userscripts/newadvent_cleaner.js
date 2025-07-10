@@ -16,6 +16,7 @@
 
     $(document).ready(function() {
         $('span.newsbyline:contains("Kathryn Jean Lopez")').parent().remove();
+        $('span.newsbyline:contains("George Weigel")').parent().remove();
     });
 
 })();
