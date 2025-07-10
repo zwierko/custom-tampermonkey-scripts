@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Revolver Cleaner
+// @name         New Advent Cleaner
 // @namespace    http://tampermonkey.net/
 // @version      2025-07-09
 // @description  Clean up authors I don't want to see.
