@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         New Advent Cleaner
 // @namespace    http://tampermonkey.net/
-// @version      2025-07-13
+// @version      2025-09-18
 // @description  Clean up authors I don't want to see.
 // @author       ajz
 // @require      https://code.jquery.com/jquery-3.7.1.slim.min.js
@@ -18,6 +18,7 @@
         $('span.newsbyline:contains("Kathryn Jean Lopez")').parent().remove();
         $('span.newsbyline:contains("George Weigel")').parent().remove();
         $('span.newsbyline:contains("Chris Stefanick")').parent().remove();
+        $('span.newsbyline:contains("Robert Royal")').parent().remove();
     });
 
 })();
