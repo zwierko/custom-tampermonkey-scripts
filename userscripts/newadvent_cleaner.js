@@ -17,6 +17,7 @@
     $(document).ready(function() {
         $('span.newsbyline:contains("Kathryn Jean Lopez")').parent().remove();
         $('span.newsbyline:contains("George Weigel")').parent().remove();
+        $('span.newsbyline:contains("Charles Pope")').parent().remove(); 
         $('span.newsbyline:contains("Chris Stefanick")').parent().remove();
         $('span.newsbyline:contains("Robert Royal")').parent().remove();
     });
